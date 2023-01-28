@@ -39,11 +39,19 @@
 .contact {
   padding-top: 8rem;
 }
-.contact button {
+.alert {
+  color: #0e1555;
+  background-color: #cfcfcf;
+  border: 1px solid #0e1555;
+}
+
+.contact .btn-kirim,
+.contact .btn-loading {
   background-color: var(--biru);
   color: var(--putih);
 }
-.contact button:hover {
+.contact .btn-kirim,
+.contact .btn-loading:hover {
   background-color: var(--biru);
   color: var(--putih);
 }
