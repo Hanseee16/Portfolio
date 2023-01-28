@@ -1,0 +1,58 @@
+:root {
+  /* color */
+  --biru: #0e1555;
+  --kuning: #ffd717;
+  --abu-abu: #d6d6d6;
+  --putih: #ffffff;
+}
+
+/* jumbotron */
+.jumbotron {
+  padding-top: 7rem;
+  background-color: var(--abu-abu);
+}
+.jumbotron h1 {
+  color: var(--biru);
+  font-size: 4rem;
+  font-weight: 400;
+  text-shadow: 10px 10px 10px rgba(0, 0, #0e1555, 0.5);
+}
+.jumbotron p {
+  color: #5e5e5e;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* about */
+.about {
+  margin-top: -300px;
+  padding-top: 14rem;
+}
+
+/* projects */
+.projects {
+  background-color: var(--abu-abu);
+  padding-top: 9rem;
+}
+
+/* contact */
+.contact {
+  padding-top: 8rem;
+}
+.contact button {
+  background-color: var(--biru);
+  color: var(--putih);
+}
+.contact button:hover {
+  background-color: var(--biru);
+  color: var(--putih);
+}
+
+/* footer */
+footer {
+  background-color: var(--biru);
+  color: var(--putih);
+}
+footer a {
+  text-decoration: none;
+}
