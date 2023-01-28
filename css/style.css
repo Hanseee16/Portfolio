@@ -39,6 +39,14 @@
 .contact {
   padding-top: 8rem;
 }
+.contact button {
+  background-color: var(--biru);
+  color: var(--putih);
+}
+.contact button:hover {
+  background-color: var(--biru);
+  color: var(--putih);
+}
 
 /* footer */
 footer {
