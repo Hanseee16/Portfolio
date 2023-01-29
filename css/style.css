@@ -6,6 +6,19 @@
   --putih: #ffffff;
 }
 
+/* navbar */
+.navbar .navbar-brand {
+  text-transform: uppercase;
+  font-family: "Secular One", sans-serif;
+  font-size: 25px;
+}
+.navbar .nav-link {
+  margin-right: 10px;
+  color: var(--putih);
+  font-size: 17px;
+  font-family: "Merriweather", serif;
+}
+
 /* jumbotron */
 .jumbotron {
   padding-top: 7rem;
@@ -15,6 +28,7 @@
   color: var(--biru);
   font-size: 4rem;
   font-weight: 400;
+  font-family: "Raleway", sans-serif;
   text-shadow: 10px 10px 10px rgba(0, 0, #0e1555, 0.5);
 }
 .jumbotron p {
@@ -25,14 +39,37 @@
 
 /* about */
 .about {
-  margin-top: -300px;
+  margin-top: -50px;
   padding-top: 14rem;
+}
+
+.about h2,
+.projects h2,
+.gallery h2,
+.contact h2 {
+  font-family: "Merriweather", serif;
+}
+
+.about svg {
+  padding-top: 12rem;
 }
 
 /* projects */
 .projects {
   background-color: var(--abu-abu);
-  padding-top: 9rem;
+  margin-top: -100px;
+  padding-top: 10rem;
+}
+
+/* gellery */
+.gallery {
+  padding-top: 100px;
+}
+.gallery-img {
+  width: 100%;
+}
+#gallery .row > * {
+  padding: 0;
 }
 
 /* contact */
@@ -42,6 +79,10 @@
 .alert {
   color: #0e1555;
   background-color: #cfcfcf;
+  border: 1px solid #0e1555;
+}
+
+form input {
   border: 1px solid #0e1555;
 }
 
