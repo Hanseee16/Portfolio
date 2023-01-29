@@ -61,6 +61,22 @@
   padding-top: 10rem;
 }
 
+.projects .project-anu {
+  transition: 0.3s ease-out;
+}
+
+.projects .project-anu:hover {
+  transform: translateY(-0.5rem) scale(1.0125);
+}
+
+.projects a {
+  text-decoration: none;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: #0e1555;
+  font-weight: bold;
+}
+
 /* gellery */
 .gallery {
   padding-top: 100px;
